@@ -1,0 +1,35 @@
+{
+    "name": "prosemirror-autolink",
+    "version": "1.0.0",
+    "description": "Automatic link detection and creation for ProseMirror",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build"
+    },
+    "keywords": [
+        "prosemirror",
+        "autolink",
+        "url",
+        "link",
+        "editor"
+    ],
+    "author": "Tung Nguyen Son",
+    "license": "MIT",
+    "peerDependencies": {
+        "prosemirror-state": "^1.0.0",
+        "prosemirror-model": "^1.0.0",
+        "prosemirror-view": "^1.0.0",
+        "prosemirror-inputrules": "^1.0.0",
+        "prosemirror-keymap": "^1.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "prosemirror-state": "^1.4.3",
+        "prosemirror-model": "^1.19.3",
+        "prosemirror-view": "^1.32.4",
+        "prosemirror-inputrules": "^1.3.0",
+        "prosemirror-keymap": "^1.2.2"
+    }
+}
