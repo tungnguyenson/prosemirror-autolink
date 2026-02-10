@@ -1,6 +1,6 @@
 {
     "name": "prosemirror-autolink",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Automatic link detection and creation for ProseMirror",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
