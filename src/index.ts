@@ -173,7 +173,8 @@ export function autolink(options: AutolinkOptions = {}): Plugin[] {
                 // Insert as link
                 const mark = view.state.schema.marks.link.create({ href: trimmedText });
                 const tr = view.state.tr.replaceSelectionWith(
-                    view.state.schema.text(trimmedText, [mark])
+                    view.state.schema.text(trimmedText, [mark]),
+                    false
                 );
                 view.dispatch(tr);
                 return true;
